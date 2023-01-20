@@ -1,6 +1,5 @@
 FROM ubuntu 
-MAINTAINER aniltamadaddi9436@gmail.com
-
+MAINTAINER aniltamadaddi946@gmail.com
 RUN apt-get update
 RUN apt -y install nginx
 CMD [“echo”,”Image created”]
