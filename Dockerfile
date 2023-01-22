@@ -1,5 +1,6 @@
 FROM nginx
-COPY html /usr/share/nginx/html
+MAINTAINER aniltamadaddi9436@gmail.com
+EXPOSE 80
 
 #FROM  ubuntu:latest
 #MAINTAINER anil@gmail.com
