@@ -1,6 +1,6 @@
 FROM nginx
 MAINTAINER aniltamadaddi9436@gmail.com
-EXPOSE 80
+EXPOSE 80 22
 
 #FROM  ubuntu:latest
 #MAINTAINER anil@gmail.com
