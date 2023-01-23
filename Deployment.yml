@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: mrdevops
-          image: dockermen31/pipeline-demo
+          image: dockermen31/k8_project
           imagePullPolicy: Always
           ports:
           - containerPort: 80
