@@ -2,8 +2,11 @@
 #MAINTAINER aniltamadaddi9436@gmail.com
 #EXPOSE 80 22
 
-FROM alpine
-ENTRYPOINT ["echo", "Hello Anil"]
+FROM tomcat
+MAINTAINER aniltamadaddi9436@gmail.com
+EXPOSE 80 22
+
+#ENTRYPOINT ["echo", "Hello Anil"]
 
 #FROM  ubuntu:latest
 #MAINTAINER anil@gmail.com
