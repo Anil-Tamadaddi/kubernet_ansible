@@ -1,4 +1,4 @@
-F#ROM nginx
+#FROM nginx
 #MAINTAINER aniltamadaddi9436@gmail.com
 #EXPOSE 80 22
 FROM python:3.8
