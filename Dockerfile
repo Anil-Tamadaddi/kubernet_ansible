@@ -1,5 +1,9 @@
-FROM nginx
-MAINTAINER aniltamadaddi9436@gmail.com
+#FROM nginx
+#MAINTAINER aniltamadaddi9436@gmail.com
+#EXPOSE 80 22
+
+FROM alpine
+CMD ["echo", "Hello Anil!"]
 EXPOSE 80 22
 
 #FROM  ubuntu:latest
