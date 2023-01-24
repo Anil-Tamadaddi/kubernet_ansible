@@ -1,10 +1,10 @@
-#FROM nginx
-#MAINTAINER aniltamadaddi9436@gmail.com
-#EXPOSE 80 22
-
-FROM tomcat
+FROM nginx
 MAINTAINER aniltamadaddi9436@gmail.com
-EXPOSE 8080
+EXPOSE 80 22
+
+#FROM tomcat
+#MAINTAINER aniltamadaddi9436@gmail.com
+#EXPOSE 8080
 
 #ENTRYPOINT ["echo", "Hello Anil"]
 
