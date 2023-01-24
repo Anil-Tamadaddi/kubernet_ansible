@@ -1,6 +1,6 @@
 - hosts: all
-  become: true
-  tasks: 
+  become: false
+  tasks: https://github.com/Anil-Tamadaddi/kubernet_ansible/blob/master/ansible.yml
      - name: delete old deployment
        command: kubectl delete -f /home/ubuntu/Deployment.yml
      - name: delete old service
