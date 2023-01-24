@@ -4,7 +4,7 @@
 
 FROM tomcat
 MAINTAINER aniltamadaddi9436@gmail.com
-#EXPOSE 80 22
+EXPOSE 8080
 
 #ENTRYPOINT ["echo", "Hello Anil"]
 
