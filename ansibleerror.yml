@@ -1,0 +1,24 @@
+- name: Play1
+  hosts: 172.31.45.36
+  gather_facts: false
+  tasks:
+    - ping:
+
+- name: Play2
+  hosts: 172.31.5.117
+  gather_facts: false
+  tasks:
+    - name: End unreachable hosts
+      block:
+        - ping:
+          register: result
+          ignore_unreachable: true
+        - meta: end_host
+          when: result.unreachable|default(false)
+    - command: ls -l
+
+- name: Play3
+  hosts: 172.31.45.36
+  gather_facts: false
+  tasks:
+    - ping:
