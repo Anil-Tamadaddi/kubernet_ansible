@@ -3,8 +3,7 @@
 #EXPOSE 80 22
 
 FROM alpine
-CMD ["echo", "Hello Anil!"]
-EXPOSE 80 22
+CMD ["echo", "Hello Anil"]
 
 #FROM  ubuntu:latest
 #MAINTAINER anil@gmail.com
