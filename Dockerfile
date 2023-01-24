@@ -1,6 +1,12 @@
-FROM nginx
-MAINTAINER aniltamadaddi9436@gmail.com
-EXPOSE 80 22
+F#ROM nginx
+#MAINTAINER aniltamadaddi9436@gmail.com
+#EXPOSE 80 22
+FROM python:3.8
+WORKDIR /usr/src/app
+COPY . .
+RUN pip install --no-cache-dir -r requirements.txt
+EXPOSE 5000
+
 
 #FROM tomcat
 #MAINTAINER aniltamadaddi9436@gmail.com
